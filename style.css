@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+   }
+
+._buttons{
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    width: 70px;
+    margin: 8px;
+    /* :hover {
+        color:crimson;
+    } */
+  }
+
+._red{
+    color:crimson;
+}
+
+._word{
+    font-size: xx-large;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    height: 100px;
+}
+
+._score{
+    position: relative;
+    left: 75%;
+}
+
+._correct{
+    font-size: xx-large;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    color: green;
+}
+
+._wrong{
+    font-size: xx-large;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    color: red;
+}

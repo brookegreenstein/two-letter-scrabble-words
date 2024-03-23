@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Letter Scrabble Word Quiz</title>
+</head>
+<body>
+    <h1> Is this a two-letter Scrabble word? </h1>
+    <br/>
+    <br/>
+    <div id="game-board">
+        <!-- <button id="startButton" type="button">Start</button> -->
+        <div id="score" class="_score">
+            <span id="score_correct"></span>
+            <span> / </span>
+            <span id="total"></span>
+        </div>
+        <div id="correct" class="_correct" style="visibility: hidden;">
+            CORRECT!
+        </div>
+        <div id="wrong" class="_wrong" style="visibility: hidden;">
+            WRONG
+        </div>
+        <div id="word" class="_word">
+        </div>
+        <br/>
+        <div id="buttons" class="_buttons">
+            <span>
+                <button id="yesButton" type="button">Yes</button>
+                <button id="noButton" type="button">No</button>
+            </span>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
